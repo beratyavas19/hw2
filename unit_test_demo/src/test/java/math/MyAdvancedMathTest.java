@@ -42,7 +42,7 @@ public class MyAdvancedMathTest {
 		mam.add(1,2);
 		Assert.assertEquals(1,mam.powerOfTwo(0));
 	}
-	
+
 	/*
 	 * A test case that examines the add method
 	 * with zeros input values. 

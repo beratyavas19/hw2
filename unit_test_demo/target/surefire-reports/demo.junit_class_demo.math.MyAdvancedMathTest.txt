@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: demo.junit_class_demo.math.MyAdvancedMathTest
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.016 sec <<< FAILURE!
-test_add_normal(demo.junit_class_demo.math.MyAdvancedMathTest)  Time elapsed: 0.015 sec  <<< ERROR!
+Tests run: 4, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.067 sec <<< FAILURE!
+test_add_normal(demo.junit_class_demo.math.MyAdvancedMathTest)  Time elapsed: 0.021 sec  <<< ERROR!
 java.lang.Exception: Unexpected exception, expected<java.lang.IllegalArgumentException> but was<java.lang.NullPointerException>
 	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:28)
 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
@@ -39,7 +39,7 @@ Caused by: java.lang.NullPointerException
 	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:19)
 	... 21 more
 
-testAdd_shouldReturnZero(demo.junit_class_demo.math.MyAdvancedMathTest)  Time elapsed: 0 sec  <<< ERROR!
+testAdd_shouldReturnZero(demo.junit_class_demo.math.MyAdvancedMathTest)  Time elapsed: 0.008 sec  <<< ERROR!
 java.lang.Exception: Unexpected exception, expected<java.lang.IllegalArgumentException> but was<java.lang.NullPointerException>
 	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:28)
 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
