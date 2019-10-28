@@ -15,7 +15,11 @@ public class HistogramGeneratorTes {
 	public void test_generate_normal() {
 
 	}
-
+	@Test
+	public void calculate_frequencies() {
+		int[] kontrol={1,2,3,4,5,6,7,8,9,10,11};
+		Assert.assertEquals(kontrol,hg.calculateFrequencies(kontrol));
+	}
 	@Test
 	public void test_frequencies() {
 		int[] list = {1,2,3,4,5,6,7,8,9,10,11};
