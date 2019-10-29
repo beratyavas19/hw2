@@ -3,11 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="69b2de75-fb4e-433a-8980-e6dbaddfd11e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/surefire-report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/unit_test_demo/src/test/java/grades/HistogramGeneratorTes.java" beforeDir="false" afterPath="$PROJECT_DIR$/unit_test_demo/src/test/java/grades/HistogramGeneratorTes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unit_test_demo/src/test/java/math/MyAdvancedMathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/unit_test_demo/src/test/java/math/MyAdvancedMathTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unit_test_demo/target/coverage-reports/jacoco-unit.exec" beforeDir="false" afterPath="$PROJECT_DIR$/unit_test_demo/target/coverage-reports/jacoco-unit.exec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unit_test_demo/target/site/surefire-report.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/unit_test_demo/target/surefire-reports/TEST-demo.junit_class_demo.grades.ChartIOTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/unit_test_demo/target/surefire-reports/TEST-demo.junit_class_demo.grades.ChartIOTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unit_test_demo/target/surefire-reports/TEST-demo.junit_class_demo.math.MyAdvancedMathTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/unit_test_demo/target/surefire-reports/TEST-demo.junit_class_demo.math.MyAdvancedMathTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unit_test_demo/target/surefire-reports/TEST-demo.junit_class_demo.math.MyAdvancedMathTest_PowerOfTwo_ParameterizedTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/unit_test_demo/target/surefire-reports/TEST-demo.junit_class_demo.math.MyAdvancedMathTest_PowerOfTwo_ParameterizedTest.xml" afterDir="false" />
@@ -16,7 +13,6 @@
       <change beforePath="$PROJECT_DIR$/unit_test_demo/target/surefire-reports/demo.junit_class_demo.math.MyAdvancedMathTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/unit_test_demo/target/surefire-reports/demo.junit_class_demo.math.MyAdvancedMathTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unit_test_demo/target/surefire-reports/demo.junit_class_demo.math.MyAdvancedMathTest_PowerOfTwo_ParameterizedTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/unit_test_demo/target/surefire-reports/demo.junit_class_demo.math.MyAdvancedMathTest_PowerOfTwo_ParameterizedTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unit_test_demo/target/surefire-reports/demo.junit_class_demo.math.MyMathTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/unit_test_demo/target/surefire-reports/demo.junit_class_demo.math.MyMathTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unit_test_demo/target/test-classes/demo/junit_class_demo/grades/HistogramGeneratorTes.class" beforeDir="false" afterPath="$PROJECT_DIR$/unit_test_demo/target/test-classes/demo/junit_class_demo/grades/HistogramGeneratorTes.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -108,7 +104,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -127,7 +125,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/unit_test_demo/src/test/java/math/MyAdvancedMathTest.java</url>
-          <line>45</line>
+          <line>40</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>

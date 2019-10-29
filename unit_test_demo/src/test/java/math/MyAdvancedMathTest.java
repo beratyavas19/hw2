@@ -34,23 +34,17 @@ public class MyAdvancedMathTest {
 	 * A test case that examines the add method
 	 * with normal input values. 
 	 */
-	@Test (expected = IllegalArgumentException.class)
+	@Test
 	public void test_add_normal() {
-		int a=-1;
-		int b=-2;
-		mam.add(a,b);
-		mam.add(1,2);
-		Assert.assertEquals(1,mam.powerOfTwo(0));
 	}
 
 	/*
 	 * A test case that examines the add method
 	 * with zeros input values. 
 	 */
-	@Test(expected = IllegalArgumentException.class)
+	@Test
 	public void testAdd_shouldReturnZero() {
-	int a=30;
-	mam.powerOfTwo(a);
+
 	}
 	
 	/*
