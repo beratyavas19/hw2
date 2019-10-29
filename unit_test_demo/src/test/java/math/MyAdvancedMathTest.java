@@ -5,6 +5,7 @@ import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.ExpectedException;
 
+
 import demo.junit_class_demo.math.MyAdvancedMath;
 import demo.junit_class_demo.math.MyMath;
 
@@ -21,12 +22,13 @@ public class MyAdvancedMathTest {
 	 * whose methods we are testing in this class
 	 */
 	MyAdvancedMath mam ;
+
 	/*
 	 * This is a constructor which is called 
 	 * when the MyAdvancedMathTest
 	 */
 	public MyAdvancedMathTest() {
-		
+
 	}
 	
 	/*
@@ -42,11 +44,16 @@ public class MyAdvancedMathTest {
 	public void test_add_justpositif() {
 		mam=new MyAdvancedMath();
 		mam.add(-3,4);
+		Assert.assertEquals(0,0);
+		//ExceptionMesaj Kontrolu
 	}
 	@Test(expected = IllegalArgumentException.class)
 	public void test_add_overflow() {
 		mam=new MyAdvancedMath();
 		mam.add(2147483647,4);
+		Assert.assertEquals(5,5);
+		//ExceptionMesajKontrolu
+
 	}
 
 

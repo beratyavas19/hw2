@@ -25,6 +25,7 @@ public class MyAdvancedMath {
 			throw new IllegalArgumentException("Cannot fit the result in an Integer.");
 		}
 
+
 		return x + y;
 	}
 	
