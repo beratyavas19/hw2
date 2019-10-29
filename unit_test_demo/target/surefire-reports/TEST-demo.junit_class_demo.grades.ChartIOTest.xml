@@ -66,7 +66,7 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="demo.junit_class_demo.grades.ChartIOTest" name="test_readFile_SadPath" time="0.007"/>
-  <testcase classname="demo.junit_class_demo.grades.ChartIOTest" name="test_readFile_happyPath" time="0"/>
+  <testcase classname="demo.junit_class_demo.grades.ChartIOTest" name="test_readFile_SadPath" time="0.006"/>
+  <testcase classname="demo.junit_class_demo.grades.ChartIOTest" name="test_readFile_happyPath" time="0.001"/>
   <testcase classname="demo.junit_class_demo.grades.ChartIOTest" name="test_wrong_format" time="0.001"/>
 </testsuite>

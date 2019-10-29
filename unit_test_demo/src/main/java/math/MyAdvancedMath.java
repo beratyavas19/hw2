@@ -65,6 +65,7 @@ public class MyAdvancedMath {
 	public int[] reverseArray(int[] array, MyMath mm) {
 		for(int i=0; i<array.length; i++) {
 			array[i] = mm.reverseNumber(array[i]);
+			System.out.println(array[i]);
 		}
 		
 		return array;

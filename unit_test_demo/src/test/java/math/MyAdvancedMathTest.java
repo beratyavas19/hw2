@@ -21,7 +21,6 @@ public class MyAdvancedMathTest {
 	 * whose methods we are testing in this class
 	 */
 	MyAdvancedMath mam ;
-	
 	/*
 	 * This is a constructor which is called 
 	 * when the MyAdvancedMathTest
@@ -36,7 +35,20 @@ public class MyAdvancedMathTest {
 	 */
 	@Test
 	public void test_add_normal() {
+		mam=new MyAdvancedMath();
+		Assert.assertEquals(8,mam.add(3,5));
 	}
+	@Test(expected = IllegalArgumentException.class)
+	public void test_add_justpositif() {
+		mam=new MyAdvancedMath();
+		mam.add(-3,4);
+	}
+	@Test(expected = IllegalArgumentException.class)
+	public void test_add_overflow() {
+		mam=new MyAdvancedMath();
+		mam.add(2147483647,4);
+	}
+
 
 	/*
 	 * A test case that examines the add method
@@ -81,6 +93,13 @@ public class MyAdvancedMathTest {
 	 */
 	@Test
 	public void test_reverseArray() {
+		mam=new MyAdvancedMath();
+		MyMath a1=new MyMath();
+		int[] yeni={6,5};
+		int[] beklenen={-6,-5};
+		int[] donen=mam.reverseArray(yeni,a1);
+		Assert.assertArrayEquals(beklenen,donen);
+
 
 	}
 	

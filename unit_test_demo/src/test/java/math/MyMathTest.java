@@ -20,7 +20,7 @@ public class MyMathTest {
 	 */
     @Test
     public void testGetSignShouldReturnPositive() {
-    	
+    	Assert.assertEquals("positive",mm.checkSign(5));
     }
     
     /*
@@ -28,9 +28,17 @@ public class MyMathTest {
 	 */
     @Test
     public void testGetSignShouldReturnNegative() {
-
+        Assert.assertEquals("negative",mm.checkSign(-10));
     }
-    
+    @Test(expected=IllegalArgumentException.class)
+    public void testGetSignShouldReturnzero() {
+        mm.checkSign(0);
+    }
+    @Test
+    public void reverseNumberTest()
+    {
+        Assert.assertEquals(-5,mm.reverseNumber(5));
+    }
     
 }
 
