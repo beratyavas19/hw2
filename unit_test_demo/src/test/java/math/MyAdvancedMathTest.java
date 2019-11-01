@@ -28,7 +28,8 @@ public class MyAdvancedMathTest {
 	 * when the MyAdvancedMathTest
 	 */
 	public MyAdvancedMathTest() {
-
+	MyAdvancedMath a1=new MyAdvancedMath();
+	Assert.assertNotNull(a1);
 	}
 	
 	/*
@@ -63,6 +64,9 @@ public class MyAdvancedMathTest {
 	 */
 	@Test
 	public void testAdd_shouldReturnZero() {
+		mam=new MyAdvancedMath();
+		int a=mam.add(0,0);
+		Assert.assertEquals(0,a);
 
 	}
 	

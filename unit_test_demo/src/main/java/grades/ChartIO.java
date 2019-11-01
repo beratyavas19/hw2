@@ -13,6 +13,7 @@ import org.jfree.chart.ChartUtils;
 
 public class ChartIO {
 
+
 	public int[] readFile(String filepath) {
 		List<Integer> linesList = new ArrayList<>();
 
