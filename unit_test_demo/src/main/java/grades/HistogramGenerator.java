@@ -7,7 +7,11 @@ import org.jfree.data.xy.XYSeries;
 import org.jfree.data.xy.XYSeriesCollection;
 
 public class HistogramGenerator {
-	private ChartIO utils; 
+
+	private ChartIO utils;
+	public Object getUtils() {
+		return utils;
+	}
 	
 	public HistogramGenerator(ChartIO utils) {
 		this.utils = utils;

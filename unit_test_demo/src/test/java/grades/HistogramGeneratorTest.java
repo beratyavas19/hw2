@@ -7,25 +7,31 @@ import static org.mockito.Mockito.*;
 
 import org.jfree.chart.JFreeChart;
 
-public class HistogramGeneratorTes {
+public class HistogramGeneratorTest {
 
 	demo.junit_class_demo.grades.HistogramGenerator hg = new demo.junit_class_demo.grades.HistogramGenerator(new demo.junit_class_demo.grades.ChartIO());
 
 	@Test
 	public void test_generate_normal() {
-
-	}
-
-	@Test
-	public void calculate_frequencies() {
-		int[] kontrol={1,2,3,4,5,6,7,8,9,10,11};
-		Assert.assertEquals(kontrol,hg.calculateFrequencies(kontrol));
+	Assert.assertNotNull(hg.getUtils());
 	}
 	@Test
 	public void test_frequencies() {
-		int[] list = {1,2,3,4,5,6,7,8,9,10,11};
-		int[] test = {1,1,1,1,1,1,1,1,1,1,1};
+		int[] list = {0,1,2,3,4,5,6,7,8,9,10};
+		int[] test=	{1,1,1,1,1,1,1,1,1,1,1};
 		Assert.assertArrayEquals(test, hg.calculateFrequencies(list));
+	}
+	@Test
+	public void test_creatChart() {
+		int[] list = {0,1,2,3,4,5,6,7,8,9,10};
+		JFreeChart dizi=hg.createChart(list);
+
+	}
+	@Test
+	public void test_exportChart(){
+		int[] list = {0,1,2,3,4,5,6,7,8,9,10};
+		hg.exportChart("exportchart",hg.createChart(list));
+
 	}
 
 
