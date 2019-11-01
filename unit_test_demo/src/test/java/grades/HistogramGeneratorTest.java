@@ -13,7 +13,7 @@ public class HistogramGeneratorTest {
 
 	@Test
 	public void test_generate_normal() {
-	Assert.assertNotNull(hg.getUtils());
+		hg.generateHistogram("/Users/macbookpro/Desktop/bil481-hw2-beratyavas19-master-2/BIL481_HW2/project/unit_test_demo/src/main/java/grades/grade.txt","olusan");
 	}
 	@Test
 	public void test_frequencies() {
