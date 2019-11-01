@@ -35,9 +35,9 @@ public class ChartIO {
 
 		return linesArray;
 	}
-	
+
 	public void writeFile(String filepath, JFreeChart chart) {
-		File output = new File(filepath); 
+		File output = new File(filepath);
 		try {
 			ChartUtils.saveChartAsJPEG(output, chart, 500, 500);
 		} catch (IOException e) {
@@ -45,7 +45,7 @@ public class ChartIO {
 		}
 
 	}
-	
+
 
 
 

@@ -5,26 +5,29 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unit_test_demo/src/main/java/grades/ChartIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/unit_test_demo/src/main/java/grades/ChartIO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unit_test_demo/src/main/java/grades/grade.txt" beforeDir="false" afterPath="$PROJECT_DIR$/unit_test_demo/src/main/java/grades/grade.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unit_test_demo/src/main/java/grades/wrongGrade.txt" beforeDir="false" afterPath="$PROJECT_DIR$/unit_test_demo/src/main/java/grades/wrongGrade.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unit_test_demo/src/test/java/grades/ChartIOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/unit_test_demo/src/test/java/grades/ChartIOTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unit_test_demo/src/test/java/math/MyAdvancedMathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/unit_test_demo/src/test/java/math/MyAdvancedMathTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unit_test_demo/src/test/java/math/MyAdvancedMathTest_PowerOfTwo_ParameterizedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/unit_test_demo/src/test/java/math/MyAdvancedMathTest_PowerOfTwo_ParameterizedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unit_test_demo/src/test/java/math/MyMathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/unit_test_demo/src/test/java/math/MyMathTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unit_test_demo/target/481.demo.child-0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/unit_test_demo/target/481.demo.child-0.1.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unit_test_demo/target/coverage-reports/jacoco-unit.exec" beforeDir="false" afterPath="$PROJECT_DIR$/unit_test_demo/target/coverage-reports/jacoco-unit.exec" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unit_test_demo/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/unit_test_demo/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unit_test_demo/target/site/jacoco/demo.junit_class_demo.grades/ChartIO.html" beforeDir="false" afterPath="$PROJECT_DIR$/unit_test_demo/target/site/jacoco/demo.junit_class_demo.grades/ChartIO.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unit_test_demo/target/site/jacoco/demo.junit_class_demo.grades/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/unit_test_demo/target/site/jacoco/demo.junit_class_demo.grades/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unit_test_demo/target/site/jacoco/demo.junit_class_demo.grades/index.source.html" beforeDir="false" afterPath="$PROJECT_DIR$/unit_test_demo/target/site/jacoco/demo.junit_class_demo.grades/index.source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unit_test_demo/target/site/jacoco/demo.junit_class_demo.math/MyAdvancedMath.html" beforeDir="false" afterPath="$PROJECT_DIR$/unit_test_demo/target/site/jacoco/demo.junit_class_demo.math/MyAdvancedMath.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unit_test_demo/target/site/jacoco/demo.junit_class_demo.math/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/unit_test_demo/target/site/jacoco/demo.junit_class_demo.math/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unit_test_demo/target/site/jacoco/demo.junit_class_demo.math/index.source.html" beforeDir="false" afterPath="$PROJECT_DIR$/unit_test_demo/target/site/jacoco/demo.junit_class_demo.math/index.source.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unit_test_demo/target/site/jacoco/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/unit_test_demo/target/site/jacoco/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unit_test_demo/target/site/jacoco/jacoco-sessions.html" beforeDir="false" afterPath="$PROJECT_DIR$/unit_test_demo/target/site/jacoco/jacoco-sessions.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unit_test_demo/target/site/jacoco/jacoco.csv" beforeDir="false" afterPath="$PROJECT_DIR$/unit_test_demo/target/site/jacoco/jacoco.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unit_test_demo/target/site/jacoco/jacoco.xml" beforeDir="false" afterPath="$PROJECT_DIR$/unit_test_demo/target/site/jacoco/jacoco.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unit_test_demo/target/surefire-reports/TEST-demo.junit_class_demo.grades.ChartIOTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/unit_test_demo/target/surefire-reports/TEST-demo.junit_class_demo.grades.ChartIOTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unit_test_demo/target/surefire-reports/TEST-demo.junit_class_demo.math.MyAdvancedMathTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/unit_test_demo/target/surefire-reports/TEST-demo.junit_class_demo.math.MyAdvancedMathTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unit_test_demo/target/surefire-reports/TEST-demo.junit_class_demo.math.MyAdvancedMathTest_PowerOfTwo_ParameterizedTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/unit_test_demo/target/surefire-reports/TEST-demo.junit_class_demo.math.MyAdvancedMathTest_PowerOfTwo_ParameterizedTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unit_test_demo/target/surefire-reports/TEST-demo.junit_class_demo.math.MyMathTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/unit_test_demo/target/surefire-reports/TEST-demo.junit_class_demo.math.MyMathTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unit_test_demo/target/surefire-reports/demo.junit_class_demo.grades.ChartIOTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/unit_test_demo/target/surefire-reports/demo.junit_class_demo.grades.ChartIOTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unit_test_demo/target/surefire-reports/demo.junit_class_demo.math.MyAdvancedMathTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/unit_test_demo/target/surefire-reports/demo.junit_class_demo.math.MyAdvancedMathTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unit_test_demo/target/surefire-reports/demo.junit_class_demo.math.MyAdvancedMathTest_PowerOfTwo_ParameterizedTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/unit_test_demo/target/surefire-reports/demo.junit_class_demo.math.MyAdvancedMathTest_PowerOfTwo_ParameterizedTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unit_test_demo/target/surefire-reports/demo.junit_class_demo.math.MyMathTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/unit_test_demo/target/surefire-reports/demo.junit_class_demo.math.MyMathTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unit_test_demo/target/test-classes/demo/junit_class_demo/math/MyAdvancedMathTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/unit_test_demo/target/test-classes/demo/junit_class_demo/math/MyAdvancedMathTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unit_test_demo/target/test-classes/demo/junit_class_demo/math/MyAdvancedMathTest_PowerOfTwo_ParameterizedTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/unit_test_demo/target/test-classes/demo/junit_class_demo/math/MyAdvancedMathTest_PowerOfTwo_ParameterizedTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unit_test_demo/target/test-classes/demo/junit_class_demo/math/MyMathTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/unit_test_demo/target/test-classes/demo/junit_class_demo/math/MyMathTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +83,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Maven.481.demo [clean,install]">
+    <configuration name="ChartIOTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="481.demo.child" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo.junit_class_demo.grades.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="grades" />
+      <option name="MAIN_CLASS_NAME" value="demo.junit_class_demo.grades.ChartIOTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="481.demo [clean,install]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -107,6 +125,11 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ChartIOTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -133,32 +156,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/unit_test_demo/src/main/java/grades/ChartIO.java</url>
-          <line>16</line>
-          <properties class="demo.junit_class_demo.grades.ChartIO" method="readFile">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/unit_test_demo/src/test/java/grades/ChartIOTest.java</url>
-          <line>33</line>
-          <properties class="demo.junit_class_demo.grades.ChartIOTest" method="test_wrong_format">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/unit_test_demo/src/main/java/grades/ChartIO.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

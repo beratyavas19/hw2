@@ -33,6 +33,7 @@ public class MyMathTest {
     @Test(expected=IllegalArgumentException.class)
     public void testGetSignShouldReturnzero() {
         mm.checkSign(0);
+        Assert.assertEquals("Number had no sign","Number had no sign");
     }
     @Test
     public void reverseNumberTest()
