@@ -56,6 +56,11 @@ public class MyAdvancedMathTest_PowerOfTwo_ParameterizedTest {
 			// Then
 			Assert.assertEquals(result,beklenen);
 	}
+	@Test(expected = IllegalArgumentException.class)
+	public void alt_ustifadekontrol(){
+
+		mam.powerOfTwo(-1);
+	}
 
 	
 }

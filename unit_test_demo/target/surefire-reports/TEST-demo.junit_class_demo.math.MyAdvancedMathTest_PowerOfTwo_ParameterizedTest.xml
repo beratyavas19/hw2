@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="0" name="demo.junit_class_demo.math.MyAdvancedMathTest_PowerOfTwo_ParameterizedTest" time="0.001" errors="0" skipped="0">
+<testsuite tests="8" failures="0" name="demo.junit_class_demo.math.MyAdvancedMathTest_PowerOfTwo_ParameterizedTest" time="0.003" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib"/>
@@ -66,8 +66,12 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="demo.junit_class_demo.math.MyAdvancedMathTest_PowerOfTwo_ParameterizedTest" name="testPowerOfTwoWithNormalCases[0]" time="0"/>
+  <testcase classname="demo.junit_class_demo.math.MyAdvancedMathTest_PowerOfTwo_ParameterizedTest" name="alt_ustifadekontrol[0]" time="0.001"/>
+  <testcase classname="demo.junit_class_demo.math.MyAdvancedMathTest_PowerOfTwo_ParameterizedTest" name="testPowerOfTwoWithNormalCases[0]" time="0.001"/>
+  <testcase classname="demo.junit_class_demo.math.MyAdvancedMathTest_PowerOfTwo_ParameterizedTest" name="alt_ustifadekontrol[1]" time="0"/>
   <testcase classname="demo.junit_class_demo.math.MyAdvancedMathTest_PowerOfTwo_ParameterizedTest" name="testPowerOfTwoWithNormalCases[1]" time="0"/>
+  <testcase classname="demo.junit_class_demo.math.MyAdvancedMathTest_PowerOfTwo_ParameterizedTest" name="alt_ustifadekontrol[2]" time="0"/>
   <testcase classname="demo.junit_class_demo.math.MyAdvancedMathTest_PowerOfTwo_ParameterizedTest" name="testPowerOfTwoWithNormalCases[2]" time="0"/>
+  <testcase classname="demo.junit_class_demo.math.MyAdvancedMathTest_PowerOfTwo_ParameterizedTest" name="alt_ustifadekontrol[3]" time="0"/>
   <testcase classname="demo.junit_class_demo.math.MyAdvancedMathTest_PowerOfTwo_ParameterizedTest" name="testPowerOfTwoWithNormalCases[3]" time="0.001"/>
 </testsuite>

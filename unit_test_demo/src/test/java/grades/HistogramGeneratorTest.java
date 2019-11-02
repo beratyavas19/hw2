@@ -26,11 +26,7 @@ public class HistogramGeneratorTest {
 	{
 		demo.junit_class_demo.grades.HistogramMain.main(new String[]{});
 	}
-	@Test
-	public void test_MainClass()
-	{
-		demo.junit_class_demo.grades.HistogramMain.main(new String[]{});
-	}
+
 
 
 	@Test
