@@ -7,9 +7,31 @@ import static org.mockito.Mockito.*;
 
 import org.jfree.chart.JFreeChart;
 
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStream;
+
 public class HistogramGeneratorTest {
 
 	demo.junit_class_demo.grades.HistogramGenerator hg = new demo.junit_class_demo.grades.HistogramGenerator(new demo.junit_class_demo.grades.ChartIO());
+	@Test
+	public void test_Get()
+	{
+		Assert.assertNotNull(hg.getUtils());
+	}
+	@Test
+	public void test_Main()
+	{
+		demo.junit_class_demo.grades.HistogramMain.main(new String[]{});
+	}
+	@Test
+	public void test_MainClass()
+	{
+		demo.junit_class_demo.grades.HistogramMain.main(new String[]{});
+	}
+
 
 	@Test
 	public void test_generate_normal() {
@@ -31,8 +53,8 @@ public class HistogramGeneratorTest {
 	public void test_exportChart(){
 		int[] list = {0,1,2,3,4,5,6,7,8,9,10};
 		hg.exportChart("exportchart",hg.createChart(list));
-
 	}
+
 
 
 	

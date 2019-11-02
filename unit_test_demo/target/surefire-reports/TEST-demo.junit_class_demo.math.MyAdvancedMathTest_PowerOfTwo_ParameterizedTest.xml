@@ -66,8 +66,8 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="demo.junit_class_demo.math.MyAdvancedMathTest_PowerOfTwo_ParameterizedTest" name="testPowerOfTwoWithNormalCases[0]" time="0.001"/>
+  <testcase classname="demo.junit_class_demo.math.MyAdvancedMathTest_PowerOfTwo_ParameterizedTest" name="testPowerOfTwoWithNormalCases[0]" time="0"/>
   <testcase classname="demo.junit_class_demo.math.MyAdvancedMathTest_PowerOfTwo_ParameterizedTest" name="testPowerOfTwoWithNormalCases[1]" time="0"/>
   <testcase classname="demo.junit_class_demo.math.MyAdvancedMathTest_PowerOfTwo_ParameterizedTest" name="testPowerOfTwoWithNormalCases[2]" time="0"/>
-  <testcase classname="demo.junit_class_demo.math.MyAdvancedMathTest_PowerOfTwo_ParameterizedTest" name="testPowerOfTwoWithNormalCases[3]" time="0"/>
+  <testcase classname="demo.junit_class_demo.math.MyAdvancedMathTest_PowerOfTwo_ParameterizedTest" name="testPowerOfTwoWithNormalCases[3]" time="0.001"/>
 </testsuite>
